@@ -13,8 +13,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Wasim2708/ZohoDeskPortalUIKitPackage.git", exact: "1.0.0"),
-        .package(url: "https://github.com/Wasim2708/ZohoDeskPortalAPIKit.git", exact: "1.0.0"),
-        .package(url: "https://github.com/Wasim2708/ZohoDeskPortalConfiguration.git", exact: "1.0.0")
+        .package(url: "https://github.com/Wasim2708/ZohoDeskPortalAPIKit.git", exact: "1.0.1"),
+        .package(url: "https://github.com/Wasim2708/ZohoDeskPortalConfiguration.git", exact: "1.0.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -27,6 +27,6 @@ let package = Package(
                 .product(name: "ZohoDeskPortalConfiguration", package: "ZohoDeskPortalConfiguration")
             ]
         ),
-        .binaryTarget(name: "ZohoDeskPortalCommunity", url: "https://maven.zohodl.com/ZohoDesk/ZohoDeskPortalCommunity/3.0.12/ZohoDeskPortalCommunity.zip", checksum: "9ad9f4a035b72002d27d51784b749e13c624e95c7766c0508cfe2b7d72846f21")
+        .binaryTarget(name: "ZohoDeskPortalCommunity", url: "https://maven.zohodl.com/ZohoDesk/ZohoDeskPortalCommunity/3.0.13/ZohoDeskPortalCommunity.zip", checksum: "05d2d1c95c90a0c5aa7a0ec3b16d2af525497dc5cdf125c7a3b91fb3fd1ea692")
     ]
 )
